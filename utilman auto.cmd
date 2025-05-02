@@ -1,6 +1,6 @@
 setlocal
 
-:: Function to check each drive for utilman.exe
+rem Rechercher le fichier utilman.exe dans chaque disque.
 for %%D in (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
     if exist %%D:\windows\system32\utilman.exe (
         echo Found utilman.exe in %%D:\windows\system32\
